@@ -1,0 +1,5 @@
+{
+  "name": "Titanic Insight Agent",
+  "description": "A sophisticated maritime data analysis agent for exploring the Titanic dataset with natural language and interactive visualizations.",
+  "requestFramePermissions": []
+}
