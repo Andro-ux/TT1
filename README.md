@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Titanic Insight Agent
 
-# Run and deploy your AI Studio app
+A sophisticated maritime data analysis platform for exploring the Titanic dataset using natural language and interactive visualizations.
 
-This contains everything you need to run your app locally.
+## Project Overview
+This project provides a comprehensive tool for analyzing historical passenger data from the RMS Titanic. It features a dual-stack approach:
+1. **Interactive Web Dashboard**: A high-performance React/TypeScript frontend for real-time data exploration.
+2. **Python Analysis Stack**: A backend implementation using FastAPI and LangChain for advanced data reasoning.
 
-View your app in AI Studio: https://ai.studio/apps/d4619e10-b283-4440-a3d5-fc3c32f07e45
+## Technical Stack
+- **Frontend**: React, TypeScript, Tailwind CSS, Recharts, Lucide Icons.
+- **Backend**: Python, FastAPI, LangChain, Pandas.
+- **Intelligence**: Gemini 3.1 Pro for natural language processing.
 
-## Run Locally
+## Features
+- **Natural Language Queries**: Ask questions about the dataset in plain English.
+- **Dynamic Visualizations**: Automatically generated charts based on data insights.
+- **Historical Accuracy**: Analyzes the authentic 1912 passenger manifest.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Setup Instructions
+Refer to the `assignment_files` directory for the Python backend and Streamlit frontend source code.
